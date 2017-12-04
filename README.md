@@ -1,24 +1,9 @@
-# README
+Stripe Elements using Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://stripe.com/docs/stripe-js - Using Stripe.js and Elements
+https://stripe.com/docs/checkout/rails - How to get a simple checkout app using Stripe and Rails
 
-Things you may want to cover:
+Run this app by performing
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+PUBLISHABLE_KEY=MY_PUBLISHABLE_KEY \
+SECRET_KEY=MY_SECRET_KEY rails s
