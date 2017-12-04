@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<%= stylesheet_link_tag "style" %>
+  	<%= stylesheet_link_tag "elements" %>
+  	<script src="https://js.stripe.com/v3/"></script>
   </head>
   <body>
     <%= yield %>
+  	<%= javascript_include_tag('elements.js') %>
   </body>
 </html>
